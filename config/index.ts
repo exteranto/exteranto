@@ -1,5 +1,7 @@
-import { StorageProvider } from '@exteranto/storage'
 import { MessagingProvider } from '@exteranto/messaging'
+import { StorageProvider } from '@exteranto/storage'
+import { TabsProvider } from '@exteranto/tabs'
+
 import { AppProvider } from '@/providers/AppProvider'
 
 export default {
@@ -7,7 +9,7 @@ export default {
   providers: [
 
     /**
-     * All Exteranto framework service providers are situated here. This part
+     * All Exteranto framework service providers are specified here. This part
      * should not be edited.
      */
 
@@ -15,13 +17,13 @@ export default {
     MessagingProvider,
 
     /**
-     * All plugin service providers are situated here.
+     * All plugin service providers are specified here.
      */
 
     // PluginProvider,
 
     /**
-     * All application service providers are situated here.
+     * All application service providers are specified here.
      */
 
     // AppProvider,

@@ -1,6 +1,7 @@
 import { Messaging } from '@exteranto/messaging'
 import { Listener } from '@exteranto/events'
 import { Autowired } from '@exteranto/ioc'
+import { Script } from '@exteranto/support'
 
 export class BootMessageListener implements Listener {
   /**

@@ -1,4 +1,5 @@
 import { BootMessageListener } from './listeners/BootMessageListener'
+import { BootBaseVueInstance } from './listeners/BootBaseVueInstance'
 import { Handler } from '@exteranto/exceptions'
 
 /**
@@ -8,6 +9,7 @@ import { Handler } from '@exteranto/exceptions'
 export default {
   'app.booted': [
     BootMessageListener,
+    BootBaseVueInstance,
   ],
 
   /**

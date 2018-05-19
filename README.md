@@ -1,2 +1,1 @@
-# Sticky Notes Chrome Extension
-> Pavel Koch
+# Exteranto Framework Skeleton Application
