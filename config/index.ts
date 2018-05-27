@@ -1,6 +1,6 @@
-import { MessagingProvider } from '@exteranto/messaging'
-import { StorageProvider } from '@exteranto/storage'
 import { TabsProvider } from '@exteranto/tabs'
+import { StorageProvider } from '@exteranto/storage'
+import { MessagingProvider } from '@exteranto/messaging'
 
 import { AppProvider } from '@/providers/AppProvider'
 
