@@ -1,4 +1,5 @@
 import { BootMessageListener } from './listeners/BootMessageListener'
+import { ShowWelcomeMessage } from './listeners/ShowWelcomeMessage'
 import { Handler } from '@exteranto/exceptions'
 
 /**
@@ -9,6 +10,7 @@ export default {
 
   'app.booted': [
     BootMessageListener,
+    ShowWelcomeMessage,
   ],
 
   /**
