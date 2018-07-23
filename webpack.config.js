@@ -29,13 +29,15 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue-loader',
-        include: [basePath('src')],
-        options: {
-          loaders: {
-            scss: 'vue-style-loader!css-loader!sass-loader',
-            sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
-          }
-        }
+        include: [basePath('src')]
+      },
+      {
+        test: /\.s(a|c)ss$/,
+        use: [
+          'vue-style-loader',
+          'css-loader',
+          'sass-loader?indentedSyntax'
+        ]
       },
       {
         test: /\.tsx?$/,

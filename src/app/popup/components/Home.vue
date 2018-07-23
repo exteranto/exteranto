@@ -12,3 +12,9 @@ export default class Home extends Vue {
   public message: string = 'Hello World!'
 }
 </script>
+
+<style lang="sass">
+.message
+  color: red
+</style>
+
