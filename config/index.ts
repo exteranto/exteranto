@@ -26,7 +26,7 @@ export default {
      * All application service providers are specified here.
      */
 
-    // AppProvider,
+    AppProvider,
 
   ],
 
