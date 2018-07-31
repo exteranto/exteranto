@@ -3,6 +3,7 @@ const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader').VueLoaderPlugin
 
 module.exports = {
+  mode: 'development',
   plugins: [
     new FriendlyErrorsWebpackPlugin,
     new VueLoaderPlugin
