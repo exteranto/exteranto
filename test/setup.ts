@@ -5,7 +5,7 @@
 require('jsdom-global')()
 require('vue').config.productionTip = false
 
-import * as chai from "chai";
-import * as chaiAsPromised from "chai-as-promised";
+import * as chai from "chai"
+import * as chaiAsPromised from "chai-as-promised"
 
-chai.use(chaiAsPromised);
+chai.use(chaiAsPromised)
