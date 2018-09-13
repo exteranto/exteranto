@@ -53,7 +53,9 @@ export default {
 
     cache: {
       timeout: 600,
-      driver: 'local'
+      forfeit: false,
+      driver: 'local',
+      timeouts: []
     }
   }
 }
