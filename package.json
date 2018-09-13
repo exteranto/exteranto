@@ -7,7 +7,7 @@
     "pack:chrome": "./build/pack.sh -a chrome",
     "pack:safari": "./build/pack.sh -a safari",
     "pack:extensions": "./build/pack.sh -a extensions",
-    "test": "mocha test/setup.ts test/**/*.spec.ts -r ts-node/register",
+    "test": "mocha test/setup.ts test/**/*.spec.ts -r ts-node/register -r tsconfig-paths/register",
     "build": "webpack --config webpack.config.js --mode development --display=none"
   },
   "author": {
@@ -47,6 +47,7 @@
     "sinon-chrome": "^2.3.2",
     "ts-loader": "^4.4.2",
     "ts-node": "^7.0.0",
+    "tsconfig-paths": "^3.6.0",
     "typescript": "^2.9.2",
     "vue": "^2.5.16",
     "vue-class-component": "^6.2.0",
