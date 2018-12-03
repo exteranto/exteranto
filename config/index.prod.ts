@@ -47,7 +47,7 @@ export default {
 
   bound: {
     app: {
-      name: 'exteranto-skeleton',
+      name: 'exteranto-skeleton-prod',
       version: '1.0.0'
     },
 

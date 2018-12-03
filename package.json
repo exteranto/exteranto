@@ -3,12 +3,10 @@
   "version": "1.0.6",
   "description": "Exteranto Skeleton Application.",
   "scripts": {
-    "pack": "./build/pack.sh",
-    "pack:chrome": "./build/pack.sh -a chrome",
-    "pack:safari": "./build/pack.sh -a safari",
-    "pack:extensions": "./build/pack.sh -a extensions",
     "test": "mocha test/setup.ts test/**/*.spec.ts -r ts-node/register",
-    "build": "webpack --config webpack.config.js --mode production --display=none"
+    "build": "cross-env APP_ENV=prod webpack --config webpack.config.js --mode production --display=none",
+    "build:dev": "cross-env APP_ENV=dev webpack --config webpack.config.js --mode production --display=none",
+    "build:prod": "cross-env APP_ENV=prod webpack --config webpack.config.js --mode production --display=none"
   },
   "author": {
     "name": "Pavel Koch",
@@ -33,6 +31,7 @@
     "@types/mocha": "^5.2.5",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
+    "cross-env": "^5.2.0",
     "css-loader": "^0.28.11",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "mocha": "^5.2.0",
