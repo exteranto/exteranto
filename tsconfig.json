@@ -1,13 +1,18 @@
 {
   "compilerOptions": {
+    "baseUrl": "./src",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "module": "commonjs",
     "noImplicitThis": true,
     "outDir": "dist",
+    "paths": {
+      "@/*": ["*"]
+    },
     "target": "es6"
   },
   "include": [
     "src/**/*", "config/**/*"
-  ]
+  ],
+  "exclude": ["node_modules", "dist", "packs"]
 }

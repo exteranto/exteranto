@@ -22,6 +22,7 @@
     "@exteranto/events": "^1.0.10",
     "@exteranto/exceptions": "^1.0.10",
     "@exteranto/ioc": "^1.0.10",
+    "@exteranto/management": "^1.0.10",
     "@exteranto/messaging": "^1.0.10",
     "@exteranto/storage": "^1.0.10",
     "@exteranto/support": "^1.0.10",
@@ -29,6 +30,8 @@
     "@types/chai": "^4.1.4",
     "@types/chai-as-promised": "^7.1.0",
     "@types/mocha": "^5.2.5",
+    "@types/node": "^10.5.5",
+    "@types/sinon": "^5.0.1",
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
     "cross-env": "^5.2.0",
@@ -37,8 +40,11 @@
     "mocha": "^5.2.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^6.0.7",
+    "sinon": "^6.1.4",
+    "sinon-chrome": "^2.3.2",
     "ts-loader": "^4.4.2",
     "ts-node": "^7.0.0",
+    "tsconfig-paths": "^3.6.0",
     "typescript": "^2.9.2",
     "vue": "^2.5.19",
     "vue-class-component": "^6.2.0",
@@ -50,8 +56,5 @@
     "vue-ts-loader": "0.0.3",
     "webpack": "^4.27.1",
     "webpack-cli": "^3.1.1"
-  },
-  "dependencies": {
-    "@exteranto/management": "^1.0.10"
   }
 }
