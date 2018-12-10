@@ -13,6 +13,7 @@ export default {
      * should not be edited.
      */
 
+    TabsProvider,
     StorageProvider,
     MessagingProvider,
 
@@ -47,15 +48,14 @@ export default {
 
   bound: {
     app: {
-      name: 'Exteranto',
+      name: 'exteranto-skeleton-prod',
       version: '1.0.0'
     },
 
     cache: {
       timeout: 600,
       forfeit: false,
-      driver: 'local',
-      timeouts: []
+      driver: 'local'
     }
   }
 }

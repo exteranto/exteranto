@@ -21,7 +21,7 @@ module.exports = {
     alias: {
       '@': basePath('src'),
       'vue$': 'vue/dist/vue.runtime.esm.js',
-      'config': basePath('config')
+      'config': basePath(`config/index.${process.env.APP_ENV || 'dev'}.ts`)
     }
   },
   module: {
