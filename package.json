@@ -4,7 +4,7 @@
   "description": "Exteranto Skeleton Application.",
   "scripts": {
     "test": "mocha test/setup.ts test/**/*.spec.ts -r ts-node/register",
-    "build": "cross-env APP_ENV=prod webpack --config webpack.config.js --mode production --display=none",
+    "build": "npm run build:prod",
     "build:dev": "cross-env APP_ENV=dev webpack --config webpack.config.js --mode production --display=none",
     "build:prod": "cross-env APP_ENV=prod webpack --config webpack.config.js --mode production --display=none"
   },
@@ -50,5 +50,8 @@
     "vue-ts-loader": "0.0.3",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+    "@exteranto/management": "^1.0.9"
   }
 }

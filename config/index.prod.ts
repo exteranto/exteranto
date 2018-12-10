@@ -13,6 +13,7 @@ export default {
      * should not be edited.
      */
 
+    TabsProvider,
     StorageProvider,
     MessagingProvider,
 
