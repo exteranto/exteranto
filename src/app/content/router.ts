@@ -10,7 +10,8 @@ export default new VueRouter({
   routes: Router.add([
     {
       path: '/',
-      component: Home
+      component: Home,
+      name: 'home',
     }
   ]).get()
 })
