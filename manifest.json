@@ -1,5 +1,6 @@
 {
-  "name": "Demo Ext",
+  "name": "Exteranto Skeleton",
+  "author": "...",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "...",
@@ -7,8 +8,7 @@
     "128": "static/logo.png"
   },
   "browser_action": {
-    "default_icon": "static/logo.png",
-    "default_popup": "index.html"
+    "default_icon": "static/logo.png"
   },
   "content_scripts": [
     {
@@ -19,12 +19,14 @@
   "background": {
     "scripts": ["dist/background.js"]
   },
-  "sandbox": {
-     "pages": ["sandbox.html"]
-  },
   "permissions": [
     "background",
     "storage",
     "tabs"
-  ]
+  ],
+  "safari": {
+    "bundle_id": "...",
+    "developer_id": "...",
+    "update_manifest_url": "..."
+  }
 }
