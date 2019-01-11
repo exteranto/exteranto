@@ -48,8 +48,8 @@ export default {
 
   bound: {
     app: {
-      name: 'exteranto-skeleton-prod',
-      version: '1.0.0'
+      name: env.NAME,
+      version: '0.0.1'
     },
 
     cache: {

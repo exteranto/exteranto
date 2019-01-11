@@ -1,14 +1,11 @@
 const basePath = (dir) => require('path').join(__dirname, dir)
-const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader').VueLoaderPlugin
 
 module.exports = {
   plugins: [
-    new FriendlyErrorsWebpackPlugin,
     new VueLoaderPlugin
   ],
   entry: {
-    popup: './src/app/popup/main.ts',
     content: './src/app/content/main.ts',
     background: './src/app/background/main.ts'
   },
@@ -21,7 +18,7 @@ module.exports = {
     alias: {
       '@': basePath('src'),
       'vue$': 'vue/dist/vue.runtime.esm.js',
-      'config': basePath(`config/index.${process.env.APP_ENV || 'dev'}.ts`)
+      'config': basePath(`config/index.ts`)
     }
   },
   module: {
