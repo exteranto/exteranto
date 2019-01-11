@@ -1,6 +1,5 @@
 import { BootMessageListener } from './listeners/BootMessageListener'
 import { ShowWelcomeMessage } from './listeners/ShowWelcomeMessage'
-import { TestListener } from './listeners/TestListener'
 import { Handler } from '@exteranto/exceptions'
 
 /**
@@ -13,8 +12,6 @@ export default {
     BootMessageListener,
     ShowWelcomeMessage,
   ],
-
-  'app.tabs.created': TestListener,
 
   /**
    * The default implementation of the exception handler only rethrows the
