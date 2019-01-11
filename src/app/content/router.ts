@@ -1,6 +1,6 @@
 import Vue from 'vue'
-import { Router } from '@exteranto/core'
 import VueRouter from 'vue-router'
+import { Router } from '@exteranto/core'
 
 import Home from './components/Home.vue'
 
