@@ -1,6 +1,6 @@
 {
-  "name": "Demo Ext",
-  "author": "GSG",
+  "name": "Exteranto Skeleton",
+  "author": "...",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "...",
@@ -19,17 +19,14 @@
   "background": {
     "scripts": ["dist/background.js"]
   },
-  "sandbox": {
-     "pages": ["sandbox.html"]
-  },
   "permissions": [
     "background",
     "storage",
     "tabs"
   ],
   "safari": {
-    "bundle_id": "com.gsg.dm",
-    "developer_id": "85BEM6STYL",
+    "bundle_id": "...",
+    "developer_id": "...",
     "update_manifest_url": "..."
   }
 }
