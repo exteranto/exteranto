@@ -23,4 +23,5 @@ const app: App = new App(
   events
 )
 
-app.bootstrap()
+app.start()
+app.boot()

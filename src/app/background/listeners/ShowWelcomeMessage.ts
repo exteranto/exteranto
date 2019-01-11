@@ -7,7 +7,7 @@ export class ShowWelcomeMessage implements Listener {
    * @param {any} payload
    */
   public handle (payload: any) {
-    console.warn(`
+    console.log(`
      _______  ___  ___  ___________  _______   _______        __      _____  ___  ___________  ______
     /"     "||"  \\/"  |("     _   ")/"     "| /"      \\      /""\\    (\\"   \\|"  \\("     _   ")/    " \\
    (: ______) \\   \\  /  )__/  \\\\__/(: ______)|:        |    /    \\   |.\\\\   \\    |)__/  \\\\__/// ____  \\
@@ -24,7 +24,7 @@ export class ShowWelcomeMessage implements Listener {
  - Docs: http://exteranto.github.io/
  - Issues: https://github.com/exteranto/exteranto/issues
 
- v1.0.6, maintained by Pavel Koch (https://github.com/kouks, https://pavelkoch.io)
+ v1.1.1, maintained by Pavel Koch (https://github.com/kouks, https://pavelkoch.io)
     `)
   }
 }

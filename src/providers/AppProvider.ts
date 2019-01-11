@@ -2,11 +2,16 @@ import { Provider } from '@exteranto/support'
 
 export class AppProvider extends Provider {
   /**
-   * Register the provider services.
-   *
-   * @param {any} container
+   * Boot the provider services.
    */
-  public register (container: any) : void {
+  public boot () : void {
+    //
+  }
+
+  /**
+   * Register the provider services.
+   */
+  public register () : void {
     //
   }
 }
