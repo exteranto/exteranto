@@ -3,7 +3,7 @@
 ## About Exteranto
 
 Exteranto is a browser extension framework that aims to unify various browser
-APIs. It also provides an object-oriented and strictly-type sctructure to your
+APIs. It also provides an object-oriented and strictly-typed sctructure to your
 extension.
 
 For installation manual and other documentation, visit the
