@@ -23,8 +23,6 @@ export class ShowWelcomeMessage implements Listener {
 
  - Docs: http://exteranto.github.io/
  - Issues: https://github.com/exteranto/exteranto/issues
-
- v1.1.1, maintained by Pavel Koch (https://github.com/kouks, https://pavelkoch.io)
     `)
   }
 }
