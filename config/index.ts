@@ -1,6 +1,7 @@
 import { TabsProvider } from '@exteranto/tabs'
-import { StorageProvider } from '@exteranto/storage'
 import { MessagingProvider } from '@exteranto/messaging'
+import { ManagementProvider } from '@exteranto/management'
+import { CookiesProvider, StorageProvider } from '@exteranto/storage'
 
 import { AppProvider } from '@/providers/AppProvider'
 
@@ -14,8 +15,10 @@ export default {
      */
 
     TabsProvider,
+    CookiesProvider,
     StorageProvider,
     MessagingProvider,
+    ManagementProvider,
 
     /**
      * All plugin service providers are specified here.
