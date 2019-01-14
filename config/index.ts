@@ -1,6 +1,7 @@
 import { TabsProvider } from '@exteranto/tabs'
-import { StorageProvider } from '@exteranto/storage'
 import { MessagingProvider } from '@exteranto/messaging'
+import { ManagementProvider } from '@exteranto/management'
+import { CookiesProvider, StorageProvider } from '@exteranto/storage'
 
 import { AppProvider } from '@/providers/AppProvider'
 
@@ -13,8 +14,11 @@ export default {
      * should not be edited.
      */
 
+    TabsProvider,
+    CookiesProvider,
     StorageProvider,
     MessagingProvider,
+    ManagementProvider,
 
     /**
      * All plugin service providers are specified here.
@@ -47,12 +51,13 @@ export default {
 
   bound: {
     app: {
-      name: 'Exteranto',
-      version: '1.0.0'
+      name: $env.NAME,
+      version: '0.0.1'
     },
 
     cache: {
       timeout: 600,
+      forfeit: false,
       driver: 'local'
     }
   }

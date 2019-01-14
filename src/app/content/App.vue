@@ -1,5 +1,5 @@
 <template>
-  <!--  -->
+  <router-view />
 </template>
 
 <script lang="ts">
@@ -10,3 +10,7 @@ export default class App extends Vue {
   //
 }
 </script>
+
+<style lang="sass">
+@import ../../assets/sass/app
+</style>

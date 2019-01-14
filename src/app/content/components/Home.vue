@@ -13,8 +13,3 @@ export default class Home extends Vue {
 }
 </script>
 
-<style lang="sass">
-.message
-  color: red
-</style>
-

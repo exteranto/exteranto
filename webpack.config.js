@@ -1,14 +1,11 @@
 const basePath = (dir) => require('path').join(__dirname, dir)
-const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin')
 const VueLoaderPlugin = require('vue-loader').VueLoaderPlugin
 
 module.exports = {
   plugins: [
-    new FriendlyErrorsWebpackPlugin,
     new VueLoaderPlugin
   ],
   entry: {
-    popup: './src/app/popup/main.ts',
     content: './src/app/content/main.ts',
     background: './src/app/background/main.ts'
   },
