@@ -48,7 +48,7 @@ export default {
 
   bound: {
     app: {
-      name: env.NAME,
+      name: $env.NAME,
       version: '0.0.1'
     },
 

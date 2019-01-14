@@ -16,7 +16,7 @@
   "devDependencies": {
     "@exteranto/aop": "^1.1.1",
     "@exteranto/cache": "^1.1.1",
-    "@exteranto/cli": "^1.0.1",
+    "@exteranto/cli": "^1.0.2",
     "@exteranto/core": "^1.1.1",
     "@exteranto/events": "^1.1.1",
     "@exteranto/exceptions": "^1.1.1",
