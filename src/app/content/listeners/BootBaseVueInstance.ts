@@ -3,7 +3,7 @@ import App from '../App.vue'
 import router from '../router'
 import { Param } from '@exteranto/ioc'
 import { Listener } from '@exteranto/events'
-import { ApplicationBootedEvent } from '@exteranto/core'
+import { AppBootedEvent } from '@exteranto/core'
 
 export class BootBaseVueInstance implements Listener {
   /**
@@ -17,9 +17,9 @@ export class BootBaseVueInstance implements Listener {
   /**
    * Handle the fired event.
    *
-   * @param {ApplicationBootedEvent} event
+   * @param {AppBootedEvent} event
    */
-  public handle (event: ApplicationBootedEvent) {
+  public handle (event: AppBootedEvent) {
     const component: Vue = new Vue({
       router,
       render: h => h(App),

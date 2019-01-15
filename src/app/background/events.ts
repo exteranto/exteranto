@@ -1,10 +1,10 @@
-import { Handler } from '@/exceptions'
+import { Handler } from '@/exceptions/Handler'
 import { Event, ListenerBag } from '@exteranto/events'
 import { ShowWelcomeMessage } from './listeners/ShowWelcomeMessage'
 import { BootMessageListener } from './listeners/BootMessageListener'
 
+import { AppBootedEvent } from '@exteranto/core'
 import { Exception } from '@exteranto/exceptions'
-import { ApplicationBootedEvent } from '@exteranto/core'
 
 /**
  * All script-specific events and their listeners are defined here. Consider
@@ -14,7 +14,7 @@ export default (touch: (e: typeof Event) => ListenerBag) => {
   /**
    * Register listeners and middleware for your application events.
    */
-  touch(ApplicationBootedEvent)
+  touch(AppBootedEvent)
     .addListener(new BootMessageListener)
     .addListener(new ShowWelcomeMessage)
 
