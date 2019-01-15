@@ -7,6 +7,9 @@ module.exports = {
     new VueLoaderPlugin,
     new FriendlyErrors
   ],
+  optimization: {
+		minimize: false
+	},
   entry: {
     content: './src/app/content/main.ts',
     background: './src/app/background/main.ts'
