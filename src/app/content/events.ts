@@ -1,6 +1,6 @@
 import { BootMessageListener } from './listeners/BootMessageListener'
 import { BootBaseVueInstance } from './listeners/BootBaseVueInstance'
-import { Handler } from '@exteranto/exceptions'
+import { Handler } from '@/exceptions'
 
 /**
  * All script-specific events and their listeners are defined here. Consider
