@@ -1,4 +1,5 @@
-import { Listener, ListenerBag } from '@exteranto/events'
+import { Listener } from '@exteranto/core'
+
 import { AppBootedEvent } from '@exteranto/core'
 
 export class ShowWelcomeMessage implements Listener {

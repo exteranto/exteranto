@@ -1,4 +1,5 @@
-import { Listener } from '@exteranto/events'
+import { Listener } from '@exteranto/core'
+
 import { Exception } from '@exteranto/exceptions'
 
 export class Handler implements Listener {

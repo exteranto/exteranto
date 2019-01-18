@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from '../App.vue'
 import router from '../router'
-import { Param } from '@exteranto/ioc'
-import { Listener } from '@exteranto/events'
+import { Listener, Param } from '@exteranto/core'
+
 import { AppBootedEvent } from '@exteranto/core'
 
 export class BootBaseVueInstance implements Listener {

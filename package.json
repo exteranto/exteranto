@@ -14,18 +14,6 @@
   "repository": "github:exteranto/exteranto",
   "license": "MIT",
   "devDependencies": {
-    "@exteranto/aop": "file:../framework/lib/aop",
-    "@exteranto/cache": "file:../framework/lib/cache",
-    "@exteranto/cli": "file:../cli",
-    "@exteranto/core": "file:../framework/lib/core",
-    "@exteranto/events": "file:../framework/lib/events",
-    "@exteranto/exceptions": "file:../framework/lib/exceptions",
-    "@exteranto/ioc": "file:../framework/lib/ioc",
-    "@exteranto/management": "file:../framework/lib/management",
-    "@exteranto/messaging": "file:../framework/lib/messaging",
-    "@exteranto/storage": "file:../framework/lib/storage",
-    "@exteranto/support": "file:../framework/lib/support",
-    "@exteranto/tabs": "file:../framework/lib/tabs",
     "@types/chai": "^4.1.4",
     "@types/chai-as-promised": "^7.1.0",
     "@types/mocha": "^5.2.5",
@@ -54,5 +42,12 @@
     "vue-ts-loader": "0.0.3",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "@exteranto/api": "^2.0.1",
+    "@exteranto/cli": "^1.0.3",
+    "@exteranto/core": "^2.0.1",
+    "@exteranto/exceptions": "^2.0.1",
+    "@exteranto/utils": "^2.0.1"
   }
 }
