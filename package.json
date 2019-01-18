@@ -1,6 +1,6 @@
 {
   "name": "@exteranto/exteranto",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Exteranto Skeleton Application.",
   "scripts": {
     "test": "mocha test/setup.ts test/**/*.spec.ts -r ts-node/register",
