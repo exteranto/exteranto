@@ -8,8 +8,8 @@ module.exports = {
     new FriendlyErrors
   ],
   optimization: {
-		minimize: false
-	},
+    minimize: false
+  },
   entry: {
     content: './src/app/content/main.ts',
     background: './src/app/background/main.ts'
