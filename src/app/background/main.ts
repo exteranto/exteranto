@@ -10,7 +10,7 @@ import { App, Script } from '@exteranto/core'
  *
  * Enjoy the awesomeness!
  *
- * @version 1.0.0
+ * @version 2.0.1
  * @see https://github.com/exteranto
  * @author Pavel Koch <kouks.koch@gmail.com>
  * @author Michael Bausano <bausanomichal@gmail.com>
