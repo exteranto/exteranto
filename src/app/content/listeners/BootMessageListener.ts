@@ -17,7 +17,7 @@ export class BootMessageListener implements Listener {
    *
    * @param {AppBootedEvent} event
    */
-  public handle (event: AppBootedEvent) {
+  public handle (event: AppBootedEvent) : void {
     this.messaging.listen()
   }
 }

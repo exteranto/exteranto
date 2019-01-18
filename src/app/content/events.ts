@@ -1,4 +1,4 @@
-import { Event, ListenerBag } from '@exteranto/core'
+import { ListenerBag } from '@exteranto/core'
 
 import { AppBootedEvent } from '@exteranto/core'
 import { Exception } from '@exteranto/exceptions'
@@ -11,7 +11,7 @@ import { BootBaseVueInstance } from './listeners/BootBaseVueInstance'
  * All script-specific events and their listeners are defined here. Consider
  * this a routing file for the application.
  */
-export default (touch: (event: typeof Event) => ListenerBag) => {
+export default (touch: (event) => ListenerBag) => {
   /**
    * Register listeners and middleware for your application events.
    */
@@ -27,12 +27,4 @@ export default (touch: (event: typeof Event) => ListenerBag) => {
    */
   touch(Exception)
     .addListener(new Handler)
-
-  /**
-   * You can also register message receivers and their listeners. Just make sure
-   * to only assign one listener to each message if you expect a response.
-   */
-  // touch(MyMessage)
-  //   .addMiddleware(MyMiddleware)
-  //   .addListener(MyReceiver)
 }
