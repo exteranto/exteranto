@@ -16,12 +16,15 @@ chai.use(chaiAsPromised)
 require('jsdom-global')()
 require('vue').config.productionTip = false
 
-// Bootstraping exteranto.
-import { Script } from '@exteranto/support'
-import { App } from '@exteranto/core'
-import config from '../config'
-
 /**
- * Boot the script.
+ * Bootstraping exteranto.
  */
-new App(Script.BACKGROUND, config, {}).bootstrap();
+
+import { App, Script } from '@exteranto/core'
+import config from '../config'
+import events from '../src/app/background/events'
+
+const app: App = new App(Script.BACKGROUND, config, events)
+
+app.start()
+app.boot()

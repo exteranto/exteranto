@@ -1,4 +1,4 @@
-import { Provider } from '@exteranto/support'
+import { Provider } from '@exteranto/core'
 
 export class AppProvider extends Provider {
   /**

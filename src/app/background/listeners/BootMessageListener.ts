@@ -1,6 +1,7 @@
-import { Autowired } from '@exteranto/ioc'
-import { Listener } from '@exteranto/events'
-import { Messaging } from '@exteranto/messaging'
+import { Messaging } from '@exteranto/api'
+import { Autowired, Listener } from '@exteranto/core'
+
+import { AppBootedEvent } from '@exteranto/core'
 
 export class BootMessageListener implements Listener {
   /**
@@ -14,9 +15,9 @@ export class BootMessageListener implements Listener {
   /**
    * Handle the fired event.
    *
-   * @param {any} payload
+   * @param {AppBootedEvent} event
    */
-  public handle (payload: any) {
+  public handle (event: AppBootedEvent) {
     this.messaging.listen()
   }
 }
