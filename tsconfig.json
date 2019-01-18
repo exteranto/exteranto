@@ -7,7 +7,8 @@
     "noImplicitThis": true,
     "outDir": "dist",
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["*"],
+      "config": ["../config/index.ts"]
     },
     "target": "es6"
   },
