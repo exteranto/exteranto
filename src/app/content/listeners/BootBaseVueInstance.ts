@@ -19,7 +19,7 @@ export class BootBaseVueInstance implements Listener {
    *
    * @param {AppBootedEvent} event
    */
-  public handle (event: AppBootedEvent) {
+  public handle (event: AppBootedEvent) : void {
     const component: Vue = new Vue({
       router,
       render: h => h(App),

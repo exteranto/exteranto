@@ -8,7 +8,7 @@ export class ShowWelcomeMessage implements Listener {
    *
    * @param {AppBootedEvent} event
    */
-  public handle (event: AppBootedEvent) {
+  public handle (event: AppBootedEvent) : void {
     console.log(`
      _______  ___  ___  ___________  _______   _______        __      _____  ___  ___________  ______
     /"     "||"  \\/"  |("     _   ")/"     "| /"      \\      /""\\    (\\"   \\|"  \\("     _   ")/    " \\
