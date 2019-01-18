@@ -1,7 +1,6 @@
 import config from 'config'
 import events from './events'
-import { App } from '@exteranto/core'
-import { Script } from '@exteranto/support'
+import { App, Script } from '@exteranto/core'
 
 /**
  * The background script entry point. Note that no functionality should be

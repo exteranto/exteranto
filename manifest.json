@@ -20,9 +20,13 @@
     "scripts": ["dist/background.js"]
   },
   "permissions": [
+    "activeTab",
     "background",
+    "cookies",
     "storage",
-    "tabs"
+    "tabs",
+    "unlimitedStorage",
+    "webRequest"
   ],
   "safari": {
     "bundle_id": "...",
