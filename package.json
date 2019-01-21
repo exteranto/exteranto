@@ -40,14 +40,14 @@
     "vue-style-loader": "^3.1.2",
     "vue-template-compiler": "^2.5.22",
     "vue-ts-loader": "0.0.3",
-    "webpack": "^4.28.4",
+    "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "@exteranto/api": "^2.0.1",
+    "@exteranto/api": "^2.1.0",
     "@exteranto/cli": "^1.0.3",
-    "@exteranto/core": "^2.0.1",
-    "@exteranto/exceptions": "^2.0.1",
-    "@exteranto/utils": "^2.0.1"
+    "@exteranto/core": "^2.1.0",
+    "@exteranto/exceptions": "^2.1.0",
+    "@exteranto/utils": "^2.1.0"
   }
 }
