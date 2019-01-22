@@ -44,10 +44,10 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "@exteranto/api": "^2.1.0",
+    "@exteranto/api": "^2.3.0",
     "@exteranto/cli": "^1.0.3",
-    "@exteranto/core": "^2.1.0",
-    "@exteranto/exceptions": "^2.1.0",
-    "@exteranto/utils": "^2.1.0"
+    "@exteranto/core": "^2.3.0",
+    "@exteranto/exceptions": "^2.3.0",
+    "@exteranto/utils": "^2.3.0"
   }
 }
