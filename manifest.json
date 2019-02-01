@@ -21,7 +21,6 @@
   },
   "permissions": [
     "activeTab",
-    "background",
     "cookies",
     "storage",
     "tabs",

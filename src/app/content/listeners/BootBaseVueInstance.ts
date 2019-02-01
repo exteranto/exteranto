@@ -8,8 +8,6 @@ import { AppBootedEvent } from '@exteranto/core'
 export class BootBaseVueInstance implements Listener {
   /**
    * The application name.
-   *
-   * @var {string}
    */
   @Param('app.name')
   private name: string
@@ -17,7 +15,7 @@ export class BootBaseVueInstance implements Listener {
   /**
    * Handle the fired event.
    *
-   * @param {AppBootedEvent} event
+   * @param event The event instance
    */
   public handle (event: AppBootedEvent) : void {
     const component: Vue = new Vue({
