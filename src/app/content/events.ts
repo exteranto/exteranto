@@ -11,7 +11,7 @@ import { BootBaseVueInstance } from './listeners/BootBaseVueInstance'
  * All script-specific events and their listeners are defined here. Consider
  * this a routing file for the application.
  */
-export default (touch: (event) => ListenerBag) => {
+export default (touch: (event: any) => ListenerBag) => {
   /**
    * Register listeners and middleware for your application events.
    */

@@ -6,7 +6,7 @@ export class ShowWelcomeMessage implements Listener {
   /**
    * Handle the fired event.
    *
-   * @param {AppBootedEvent} event
+   * @param event The event instance
    */
   public handle (event: AppBootedEvent) : void {
     console.log(`

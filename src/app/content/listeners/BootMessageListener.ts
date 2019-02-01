@@ -6,8 +6,6 @@ import { AppBootedEvent } from '@exteranto/core'
 export class BootMessageListener implements Listener {
   /**
    * The messaging API implementation.
-   *
-   * @var {Messaging}
    */
   @Autowired
   private messaging: Messaging
@@ -15,7 +13,7 @@ export class BootMessageListener implements Listener {
   /**
    * Handle the fired event.
    *
-   * @param {AppBootedEvent} event
+   * @param event The event instance
    */
   public handle (event: AppBootedEvent) : void {
     this.messaging.listen()
