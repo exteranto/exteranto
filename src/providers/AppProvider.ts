@@ -1,6 +1,7 @@
 import { Provider } from '@exteranto/core'
 
 export class AppProvider extends Provider {
+
   /**
    * Boot the provider services.
    */
@@ -14,4 +15,5 @@ export class AppProvider extends Provider {
   public register () : void {
     //
   }
+
 }

@@ -1,14 +1,11 @@
 import { Listener } from '@exteranto/core'
 
-import { AppBootedEvent } from '@exteranto/core'
-
 export class ShowWelcomeMessage implements Listener {
+
   /**
    * Handle the fired event.
-   *
-   * @param event The event instance
    */
-  public handle (event: AppBootedEvent) : void {
+  public handle () : void {
     console.log(`
      _______  ___  ___  ___________  _______   _______        __      _____  ___  ___________  ______
     /"     "||"  \\/"  |("     _   ")/"     "| /"      \\      /""\\    (\\"   \\|"  \\("     _   ")/    " \\
@@ -27,4 +24,5 @@ export class ShowWelcomeMessage implements Listener {
  - Issues: https://github.com/exteranto/exteranto/issues
     `)
   }
+
 }

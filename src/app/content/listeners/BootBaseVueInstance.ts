@@ -3,9 +3,8 @@ import App from '../App.vue'
 import router from '../router'
 import { Listener, Param } from '@exteranto/core'
 
-import { AppBootedEvent } from '@exteranto/core'
-
 export class BootBaseVueInstance implements Listener {
+
   /**
    * The application name.
    */
@@ -14,10 +13,8 @@ export class BootBaseVueInstance implements Listener {
 
   /**
    * Handle the fired event.
-   *
-   * @param event The event instance
    */
-  public handle (event: AppBootedEvent) : void {
+  public handle () : void {
     const component: Vue = new Vue({
       router,
       render: h => h(App),
@@ -25,4 +22,5 @@ export class BootBaseVueInstance implements Listener {
 
     document.querySelector('body').appendChild(component.$el)
   }
+
 }
