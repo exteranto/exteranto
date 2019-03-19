@@ -15,10 +15,14 @@ import { App, Script } from '@exteranto/core'
  * @author Michael Bausano <bausanomichal@gmail.com>
  */
 
-const app: App = new App(
-  Script.CONTENT,
-  config,
-  events
-)
+// This is safari content script fix to avoid reinjecting the script over
+// and over again.
+if (window === window.top) {
+  const app: App = new App(
+    Script.CONTENT,
+    config,
+    events
+  )
 
-app.bootstrap()
+  app.bootstrap()
+}
