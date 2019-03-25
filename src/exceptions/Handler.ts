@@ -1,8 +1,7 @@
-import { Listener } from '@exteranto/core'
-
-import { Exception } from '@exteranto/exceptions'
+import { Exception, Listener } from '@exteranto/core'
 
 export class Handler implements Listener {
+
   /**
    * Generic exception listener, simply rethrows the exception. Implement your
    * own functionality here.
@@ -12,4 +11,5 @@ export class Handler implements Listener {
   public handle (event: Exception) {
     throw event
   }
+
 }

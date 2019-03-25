@@ -1,10 +1,13 @@
 import {
+  StorageType,
   TabsProvider,
-  MessagingProvider,
   StorageProvider,
+  MessagingProvider,
 } from '@exteranto/api'
 
-import { AppProvider } from '@/providers/AppProvider'
+import {
+  AppProvider
+} from '@/providers/AppProvider'
 
 export default {
 
@@ -57,7 +60,8 @@ export default {
     cache: {
       timeout: 600,
       forfeit: false,
-      driver: 'local'
+      driver: StorageType.MEMORY
     }
   }
+
 }

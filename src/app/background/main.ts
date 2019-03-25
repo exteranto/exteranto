@@ -4,9 +4,9 @@ import { App, Script } from '@exteranto/core'
 
 /**
  * The background script entry point. Note that no functionality should be
- * included here as the container is not booted prior to the
- * 'app.booted' event. Please register a listener for this event for
- * functionality that should be executed upon application boot.
+ * included here as the container is not booted prior to the AppBootedEvent.
+ * Please register a listener for this event for functionality that should be
+ * executed upon application boot.
  *
  * Enjoy the awesomeness!
  *
@@ -21,5 +21,4 @@ const app: App = new App(
   events
 )
 
-app.start()
-app.boot()
+app.bootstrap()
