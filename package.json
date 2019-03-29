@@ -17,22 +17,22 @@
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
-    "@types/node": "^11.11.6",
+    "@types/node": "^11.12.1",
     "chai": "^4.2.0",
-    "mocha": "^6.0.2",
+    "mocha": "^5.2.0",
     "ts-node": "^8.0.3",
     "tsconfig-paths": "^3.8.0",
     "ttypescript": "^1.5.6",
     "typescript": "^3.3.4000",
-    "vue": "^2.6.10",
+    "vue": "^2.6.9",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.2"
   },
   "dependencies": {
-    "@exteranto/api": "^3.0.2",
+    "@exteranto/api": "^3.1.0",
     "@exteranto/cli": "^3.0.3",
-    "@exteranto/core": "^3.0.2",
-    "@exteranto/utils": "^3.0.2"
+    "@exteranto/core": "^3.1.0",
+    "@exteranto/utils": "^3.1.0"
   }
 }
