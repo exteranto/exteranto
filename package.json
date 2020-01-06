@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@exteranto/api": "^3.1.4",
-    "@exteranto/cli": "^3.1.1",
+    "@exteranto/cli": "^3.1.5",
     "@exteranto/core": "^3.1.4",
     "@exteranto/utils": "^3.1.4"
   }
