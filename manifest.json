@@ -1,5 +1,5 @@
 {
-  "name": "Exteranto Skeleton",
+  "name": "Browser Extension",
   "author": "...",
   "version": "0.0.1",
   "manifest_version": 2,
@@ -21,11 +21,8 @@
   },
   "permissions": [
     "activeTab",
-    "cookies",
     "storage",
-    "tabs",
-    "unlimitedStorage",
-    "webRequest"
+    "tabs"
   ],
   "safari": {
     "bundle_id": "...",
